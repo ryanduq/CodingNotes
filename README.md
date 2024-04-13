@@ -15,9 +15,6 @@ From a terminal currently in the folder containing all project files
 git init
 ```
 ```
-git add .
-```
-```
 git remote add origin git@github.com:username/new_repo
 ```
 or, if not using SSH
