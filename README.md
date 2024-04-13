@@ -45,7 +45,7 @@ git push --set-upstream origin master
 ### .gitignore documentation
 https://git-scm.com/docs/gitignore#_pattern_format
 
-A leading ** followed by a slash means match in all directories. For example, **/foo matches file or directory foo anywhere, the same as pattern foo. **/foo/bar matches file or directory bar anywhere that is directly under directory foo.
+> A leading ** followed by a slash means match in all directories. For example, **/foo matches file or directory foo anywhere, the same as pattern foo. **/foo/bar matches file or directory bar anywhere that is directly under directory foo.
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 # "#"
