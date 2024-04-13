@@ -42,8 +42,7 @@ git push --set-upstream origin master
 ** This may work as well ```git push -u origin master```
 
 
-### .gitignore documentation
-https://git-scm.com/docs/gitignore#_pattern_format
+### .gitignore documentation: https://git-scm.com/docs/gitignore
 
 > A leading ** followed by a slash means match in all directories. For example, **/foo matches file or directory foo anywhere, the same as pattern foo. **/foo/bar matches file or directory bar anywhere that is directly under directory foo.
 
