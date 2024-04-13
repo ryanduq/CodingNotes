@@ -44,6 +44,10 @@ git push --set-upstream origin master
 ```
 ** This may work as well ```git push -u origin master```
 
+
+### .gitignore documentation
+https://git-scm.com/docs/gitignore#_pattern_format
+
 <br><br><br><br><br><br><br><br><br><br><br><br>
 # "#"
 ## "##"
