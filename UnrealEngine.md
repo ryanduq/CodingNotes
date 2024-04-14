@@ -19,6 +19,7 @@ DefaultPlatformService=Steam
 [OnlineSubsystemSteam]
 bEnabled=true
 SteamDevAppId=480
+bInitServerOnClient=true
 
 [/Script/OnlineSubsystemSteam.SteamNetDriver]
 NetConnectionClassName="OnlineSubsystemSteam.SteamNetConnection"
