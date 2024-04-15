@@ -31,6 +31,6 @@ https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Online/Steam/
 # Troubleshooting
 
 ## Generate Visual Studio project files
-Delete /Binaries, /Build, /Intermediate, /Saved folders in project folder.\
+Delete /Binaries, /Build, /Intermediate, /Saved folders in project folder. Do the same with plugins (Plugin/Game/..)\
 Right click on the uproject file and "Generate Visual Studio project files"\
 Double click on the uproject file and rebuild missing modules when prompted
