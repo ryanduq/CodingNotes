@@ -37,3 +37,10 @@ https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Online/Steam/
 Delete /Binaries, /Build, /Intermediate, /Saved folders in project folder. Do the same with plugins (Plugin/Game/..)\
 Right click on the uproject file and "Generate Visual Studio project files"\
 Double click on the uproject file and rebuild missing modules when prompted
+
+## Which files to delete
+The following folders can take up a lot of data and be needed:\
+`ProgramData\Epic\EpicGamesLauncher\VaultCache` - downloads from Epic Marketplace\
+`...\Documents\Megascans Library\Downloaded\UAssets` - downloads from Quixel Bridge, etc..
+
+
