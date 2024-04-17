@@ -3,6 +3,32 @@ Find notes on coding and troubleshooting.
 <br><br><br>
 
 
+## Git Setup
+Download at https://git-scm.com/download/win \
+n bash  \
+```
+git config --global user.name "Firstname Lastname"
+```
+```
+git config --global user.email "your_email@example.com"
+```
+```
+git init
+```
+```
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+Copy key
+```
+notepad ~/.ssh/id_rsa.pub
+```
+On GitHub, go to Settings and then SSH and GPG Keys. Click New SSH key and paste all the contents of the file id_rsa.pub into the field Key.
+
+Check if it's working (note there may not be shell access):
+```
+ssh -T git@github.com
+```
+
 ## Initializing git for a project
 
 ### From github.com:
