@@ -2,7 +2,10 @@
 
 
 ## DL Project Repo
-Clone proj and generate Visual Studio project files
+ - Clone proj
+ - Will be missing solution(.sln)
+ - Generate Visual Studio project files and rebuild missing modules
+ - Test by right-clicking uproject and selecting "Launch Game"
 
 
 ## Steam Setup
