@@ -44,3 +44,4 @@ The following folders can take up a lot of data and be needed:\
 `...\Documents\Megascans Library\Downloaded\UAssets` - downloads from Quixel Bridge, etc..
 
 
+## When migrating files, it must be done in the /Content folder.
