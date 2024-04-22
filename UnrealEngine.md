@@ -31,6 +31,9 @@ NetConnectionClassName="OnlineSubsystemSteam.SteamNetConnection"
 https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Online/Steam/
 
 
+## Retargeting
+https://www.youtube.com/watch?v=_sLnCqBaElI&t=5s
+
 # Troubleshooting
 
 ## Generate Visual Studio project files
