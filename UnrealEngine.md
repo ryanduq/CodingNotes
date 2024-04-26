@@ -48,3 +48,6 @@ The following folders can take up a lot of data and be needed:\
 
 
 ## When migrating files, it must be done in the /Content folder.
+
+
+## Live coding hotkey: Ctrl-Alt-F11
