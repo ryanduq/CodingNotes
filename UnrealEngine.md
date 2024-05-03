@@ -51,3 +51,7 @@ The following folders can take up a lot of data and be needed:\
 
 
 ## Live coding hotkey: Ctrl-Alt-F11
+
+
+## UE5 animation trim leaves the first frame in (as the last frame??) when triming around a position
+Go to the end and create a new from after it
