@@ -54,4 +54,8 @@ The following folders can take up a lot of data and be needed:\
 
 
 ## UE5 animation trim leaves the first frame in (as the last frame??) when triming around a position
-Go to the end and create a new from after it
+Need to create animation from current pose.
+
+
+## UE5 project unable to launch game with Ctrl-F5 from VS Studio due to some  debugger error
+Open solution explorer, find ../Games/<GameName>, rt click on <GameName>, and select "Set as Startup Project". Now try to launch with Ctrl-F5.
