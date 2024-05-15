@@ -59,3 +59,8 @@ Need to create animation from current pose.
 
 ## UE5 project unable to launch game with Ctrl-F5 from VS Studio due to some  debugger error
 Open solution explorer, find ../Games/Game, rt click on Game, and select "Set as Startup Project". Now try to launch with Ctrl-F5.
+
+
+## Level not loading on packaged build?
+Make sure it is being packaged at 'Edit/Project Settings/Packaging/List of maps to include in a packaged build'.\
+e.g. /Game/Maps/Lobby, /Game/Maps/GameStartupMap
