@@ -64,3 +64,7 @@ Open solution explorer, find ../Games/Game, rt click on Game, and select "Set as
 ## Level not loading on packaged build?
 Make sure it is being packaged at 'Edit/Project Settings/Packaging/List of maps to include in a packaged build'.\
 e.g. /Game/Maps/Lobby, /Game/Maps/GameStartupMap
+
+
+## Need to roll back an altered and unsaved asset?
+Right click asset -> Asset Actions -> Reload
