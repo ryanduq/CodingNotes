@@ -34,6 +34,18 @@ https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Online/Steam/
 ## Retargeting
 https://www.youtube.com/watch?v=_sLnCqBaElI&t=5s
 
+## Simulating lag
+in DefaultEngine.ini, add the following
+```
+[PacketSimulationSettings]
+PktLag = 100
+```
+Only clients will notice the effects. Can compare lag compensation between listen server and client.\
+Ping calcs/code:  \
+--UNetConnection::ReadPacketInfo(FBitReader& Reader, bool bHasPacketInfoPayload)\
+--APlayerController::UpdatePing(float InPing)\
+--APlayerState::UpdatePing(float InPing)
+
 # Troubleshooting
 
 ## Generate Visual Studio project files
