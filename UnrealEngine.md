@@ -46,6 +46,8 @@ Ping calcs/code:  \
 --APlayerController::UpdatePing(float InPing)\
 --APlayerState::UpdatePing(float InPing)
 
+See also https://www.unrealengine.com/en-US/blog/finding-network-based-exploits
+
 # Troubleshooting
 
 ## Generate Visual Studio project files
