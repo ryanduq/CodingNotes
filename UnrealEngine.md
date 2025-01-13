@@ -80,5 +80,9 @@ Make sure it is being packaged at 'Edit/Project Settings/Packaging/List of maps 
 e.g. /Game/Maps/Lobby, /Game/Maps/GameStartupMap
 
 
+## File created in VS is ignored and not found by other files
+Need to make sure the new file was added to /Source/ folder and NOT /Intermediate/
+
+
 ## Need to roll back an altered and unsaved asset?
 Right click asset -> Asset Actions -> Reload
